@@ -1,6 +1,12 @@
 # AnalysisSimpleASM
 
-only knwon composition of ASM by using llvm pass
+Only knwon composition of ASM by using llvm pass
+
+The sample as follows:
+```
+unsigned int * dtr;
+asm volatile("sidt %0":"=m" (*dtr)); 
+```
 
 ### Requirements
 
@@ -58,4 +64,3 @@ InlineAsm.getAsmString:
 InlineAsm.getConstraintString:
 	=*m,~{dirflag},~{fpsr},~{flags}
 ```
-
