@@ -3,16 +3,16 @@
 #include <unistd.h>
 
 int main(int argc, char *argv[]){
+    /*
     int asmi = 10;
     int asmj = 20;
-   // asm("int3");
-   /*
+    asm("int3");
+   
     __asm__("xorl %0,%1"
           : "=r"(asmi)
           : "0"(asmj)
 	  : "memory"); 
-   */
-    /*
+   
     int src = 1;
     int src2 = 2;
     int dst;
