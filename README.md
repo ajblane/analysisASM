@@ -1,6 +1,6 @@
 # AnalysisSimpleASM
 
-Only knwon composition of ASM by using llvm pass
+Only knwon composition of ASM in LLVM IR by using LLVM pass
 
 The sample as follows:
 ```
@@ -32,7 +32,7 @@ $ sudo apt-get install llvm
 ```
 ### Usage:
 
-* Compile the exploit code with the pointer guard pass
+* Compile the sample code with the analysis pass
 
 Need to check where llvm-config is:
 
